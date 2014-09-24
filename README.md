@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 * [x]	New search is triggered if search preferences are set and query is not empty.
 * [x]	To improve user experience with “full” image loading on Image Details activity, loading spinner and image placeholder if image cannot be loaded are used.
 * [x]	Improved error handing with relevant messaging and logging on internet not available and error response from API.
-* [x]	Improved look and fill and user experience (hiding soft keyboard on search, populating query on Action Search closed/open, portrait mode for search activity, sitename validation etc)
+* [x]	Improved look and fill and user experience (hiding soft keyboard on search, populating query on Action Search closed/opened, portrait mode for search activity, sitename validation etc)
 
 Time spent: around 20 hours (total for reading, coding, debugging, testing and refactoring)
 
@@ -35,12 +35,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 The following open-source libraries were used for the project:
 -	[Android Asynchronous Http Client] (http://loopj.com/android-async-http/)
-
 -	[Picasso - image downloading and caching library for Android] (http://square.github.io/picasso/)
 
 Points to consider for future development:
 -	Improve handling of QPS-rate-exceeded-response from API e.g. wait and re-try or allow user to trigger loading relevant image result page
--	Adjust look of of spinner dropdowns for preferences settings.
+-	Adjust look of spinner dropdowns for preferences settings
 -	The app does not do well with very small images e.g. icons (it will enlarge them). It needs to handle icons/small images better while allowing for zoom-in because many of these images are hardly visible on mobile while they are of real size.
 -	Experiment with [the StaggeredGridView] (https://github.com/f-barth/AndroidStaggeredGrid)
 -	Experiment with [zoom or pan images]  (https://github.com/MikeOrtiz/TouchImageView) displayed in full-screen detail view
