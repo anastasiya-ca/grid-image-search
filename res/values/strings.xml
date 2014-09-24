@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Image Searcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="image_title_default_string">No title</string>
+    <string name="title_activity_image_details">Image Details</string>
+    <string name="settings_site_name_label">Site Filter</string>
+    <string name="settings_image_size_label">Image Size</string>
+    <string name="settings_color_filter_label">Color Filter</string>
+    <string name="settings_image_type_label">Image Type</string>
+    <string name="settings_site_name_prompt">e.g. yahoo.com</string>
+    <string name="settings_image_size_prompt">Image Size Filter</string>
+    <string name="settings_color_filter_prompt">Image Color Filter</string>
+    <string name="settings_image_type_prompt">Image Type Filter</string>
+    <string name="update_settings_dialog_title">Advanced Search Options</string>
+    <string name="save_button_label">Save</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="thumb_image_content_description">thumb image</string>
+    <string name="image_content_description">image</string>
+
+</resources>

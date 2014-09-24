@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/tvImageSizeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/settings_image_size_label" />
+
+    <Spinner
+        android:id="@+id/spImageSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvImageSizeLabel"
+        android:layout_alignLeft="@+id/spImageType"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/spImageType"
+        android:layout_toEndOf="@+id/tvImageSizeLabel"
+        android:layout_toRightOf="@+id/tvImageSizeLabel"
+        android:entries="@array/image_sizes_array"
+        android:prompt="@string/settings_image_size_prompt" />
+
+    <TextView
+        android:id="@+id/tvImageColorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvImageSizeLabel"
+        android:padding="10dp"
+        android:text="@string/settings_color_filter_label" />
+
+    <Spinner
+        android:id="@+id/spColorFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvImageColorLabel"
+        android:layout_alignLeft="@+id/spImageType"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/spImageType"
+        android:layout_toEndOf="@+id/tvImageColorLabel"
+        android:layout_toRightOf="@+id/tvImageColorLabel"
+        android:entries="@array/image_colors_array"
+        android:prompt="@string/settings_color_filter_prompt" />
+
+    <TextView
+        android:id="@+id/tvImageTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvImageColorLabel"
+        android:padding="10dp"
+        android:text="@string/settings_image_type_label" />
+
+    <Spinner
+        android:id="@+id/spImageType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvImageTypeLabel"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/tvImageTypeLabel"
+        android:layout_toRightOf="@+id/tvImageTypeLabel"
+        android:entries="@array/image_types_array"
+        android:prompt="@string/settings_image_type_prompt" />
+
+    <TextView
+        android:id="@+id/tvSiteNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvImageTypeLabel"
+        android:padding="10dp"
+        android:text="@string/settings_site_name_label" />
+
+    <EditText
+        android:id="@+id/etSiteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvSiteNameLabel"
+        android:layout_alignLeft="@+id/spImageType"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/spImageType"
+        android:layout_toEndOf="@+id/tvSiteNameLabel"
+        android:layout_toRightOf="@+id/tvSiteNameLabel"
+        android:hint="@string/settings_site_name_prompt"
+        android:inputType="textUri"
+        android:textSize="15sp" >
+    </EditText>
+
+</RelativeLayout>
