@@ -11,6 +11,7 @@ The following **required** functionality is completed:
   * Type (_faces_, _photo_, _clip art_, _line art_))
   * Site (_espn.com_)
 * [x]	User can **see a larger image version** by clicking on image in gridview. Image is adjusted to fit the screen width.
+
 The following **optional** features are implemented:
 * [x]	ActionBar SearchView for specifying query and triggering search
 * [x]	User can **share an image** on detailed image view. Share Action Provider is used.
