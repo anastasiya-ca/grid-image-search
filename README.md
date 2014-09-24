@@ -21,6 +21,7 @@ The following **optional** features are implemented:
 * [x]	Improved error handing with relevant messaging and logging on internet not available and error response from API.
 * [x]	Improved look and fill and user experience (hiding soft keyboard on search, populating query on Action Search closed/open, portrait mode for search activity, sitename validation etc)
 
+Time spent: around 20 hours (total for reading, coding, debugging, testing and refactoring)
 
 The app was tested on HTC One (Android 4.1.2) and on AVDs.
 
