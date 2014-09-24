@@ -6,10 +6,10 @@ The following **required** functionality is completed:
 * [x]	User can **search for images** by specifying a query and launching a search. On successful search the grid of images with short titles is displayed. The images are adjusted to fit gridview squares.
 * [x]	User can **scroll down to see more images**. The maximum number of images is 64 (limited by API).
 * [x]	User can **update search preferences**. Search preferences are set to “any” originally. Once user updates them they are persisted and  **applied to subsequent searches**. The following Search preferences are offered:
-⋅⋅* Size (_icon_, _small_, _medium_, _large_, _extra-large_)
-⋅⋅* Color filter (_black_, _blue_, _brown_, _gray_, _green_ etc... as per Google API)
-⋅⋅* Type (_faces_, _photo_, _clip art_, _line art_))
-⋅⋅* Site (_espn.com_)
+  * Size (_icon_, _small_, _medium_, _large_, _extra-large_)
+  * Color filter (_black_, _blue_, _brown_, _gray_, _green_ etc... as per Google API)
+  * Type (_faces_, _photo_, _clip art_, _line art_))
+  * Site (_espn.com_)
 * [x]	User can **see a larger image version** by clicking on image in gridview. Image is adjusted to fit the screen width.
 The following **optional** features are implemented:
 * [x]	ActionBar SearchView for specifying query and triggering search
